@@ -9,3 +9,151 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+main {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ariel, 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 18px;
+}
+
+ul li {
+    display: inline-block; 
+}
+
+ul a {
+    color: #6b7280;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color:#5A67D8;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+.overview-hero {
+    background-color: #E2E8F0;
+} 
+
+.overview-hero div {
+    display: flex;
+    justify-content: center;
+} 
+
+.overview-hero-text {
+    text-align: center;
+    flex-direction: column;
+} 
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.cards h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+.card {
+    border-style: solid;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 10px;
+    padding: 20px;
+
+} 
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.cta a{
+    text-decoration: none;
+    background-color: #5A67D8;
+    border-radius: 5px;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .container{
+    display: flex;
+    align-items:center;
+    text-align: center;
+}
+
+.testing-desciption {
+   justify-content: left;
+} 
+
+.cta a {
+    display: block;
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
+}
+
+.stories h2, a {
+    color: #5A67D8;
+}
+
+.stories h3 {
+    font-size: 18px;
+}
+
+article img{
+    display: flex;
+    float: left; 
+    justify-items: center;
+    clear: both;
+    border-radius: 50%;
+} 
+
+.article-body{ 
+    text-align: right ;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+form {
+    display: inline-flex;
+}
+
+.btn {
+    background-color: #5A67D8;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
