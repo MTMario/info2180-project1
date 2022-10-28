@@ -50,8 +50,10 @@ img {
 } 
 
 .overview-hero-text {
-    text-align: center;
+    text-align: left;
     flex-direction: column;
+    align-content: center;
+    margin-left: 20px;
 } 
 
 .learn-about h2 {
@@ -63,13 +65,18 @@ img {
     color: #48BB78;
     font-size: 21px;
 }
+
+.cards div {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
 .card {
     border-style: solid;
     border-color: #E2E8F0;
     border-radius: 5px;
     box-shadow: 10px;
     padding: 20px;
-
 } 
 
 .cards {
@@ -98,6 +105,8 @@ img {
 
 .testing-desciption {
    justify-content: left;
+   text-align: left;
+   ;
 } 
 
 .cta a {
@@ -105,7 +114,19 @@ img {
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
+
 }
+
+.stories div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.stories {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}  
 
 .stories h2, a {
     color: #5A67D8;
@@ -115,19 +136,29 @@ img {
     font-size: 18px;
 }
 
+article {
+    margin-top: auto;
+}
+
 article img{
     display: flex;
-    float: left; 
+    float: left;  
     justify-items: center;
     clear: both;
     border-radius: 50%;
+    margin-right: 20px;
 } 
 
 .article-body{ 
-    text-align: right ;
+    text-align: left ;
+}
+
+.article-body a {
+    text-decoration: none;
 }
 
 .newsletter {
+    display: flex;
     background-color: #48BB78;
     color: white;
     clear: both;
@@ -136,11 +167,11 @@ article img{
 
 form {
     display: inline-flex;
-}
+    
+} 
 
 .btn {
     background-color: #5A67D8;
-    padding-left: 10px;
 }
 
 footer {
