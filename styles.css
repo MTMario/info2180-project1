@@ -42,6 +42,8 @@ img {
 
 .overview-hero {
     background-color: #E2E8F0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 } 
 
 .overview-hero div {
@@ -95,6 +97,9 @@ img {
 .testing {
     background-color: #4A5568;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .testing .container{
@@ -106,7 +111,6 @@ img {
 .testing-desciption {
    justify-content: left;
    text-align: left;
-   ;
 } 
 
 .cta a {
@@ -114,7 +118,6 @@ img {
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
-
 }
 
 .stories div {
@@ -137,8 +140,8 @@ img {
 }
 
 article {
-    margin-top: auto;
-}
+    padding-bottom: 20px;
+} 
 
 article img{
     display: flex;
@@ -163,6 +166,7 @@ article img{
     color: white;
     clear: both;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 form {
@@ -177,6 +181,8 @@ form {
 footer {
     background-color: #4A5568;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
